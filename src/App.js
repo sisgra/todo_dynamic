@@ -54,7 +54,7 @@ const App=()=> {
             value={inputValue}
             onChange={(e)=> setInputValue(e.target.value)}
             />
-          <button type="submit">Submit</button>
+          <button type="submit">ADD</button>
         </form>
         {todos.map((todo)=>(
           <div key={todo.id} className="todo">

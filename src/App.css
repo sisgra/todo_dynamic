@@ -7,10 +7,11 @@
 
 .container {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   padding: 30px;
-  background: #3c424a;
+  background: #fff;
   min-height: 510px;
+  border-radius: 5%;
 }
 
 /* App Styles */
@@ -39,7 +40,7 @@ button {
 }
 
 input {
-  width: 80%;
+  width: 70%;
   padding: 0 18px;
   background: #343a40;
   color: #f9f9f9;
@@ -59,6 +60,7 @@ button {
   border: 1px solid #3c424a;
   cursor: pointer;
   transition: all 200ms;
+  margin-left: 10%;
 }
 
 button:hover {
